@@ -1,0 +1,22 @@
+{
+  "name": "qrflora",
+  "version": "1.0.0",
+  "description": "Serviços para qrflora",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-load": "^1.1.16",
+    "express-validator": "^3.2.0",
+    "jsonwebtoken": "^7.4.1",
+    "mongoose": "^4.10.8",
+    "nodemailer": "^4.0.1"
+  }
+}
